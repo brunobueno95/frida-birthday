@@ -1,6 +1,6 @@
 
 import './App.css'
-import LoveLetter from "./assets/love-letter.png"
+import Frida from "./assets/frida.jpg"
 import FridaDive from "./assets/frida-dive.jpg"
 import Fmly from "./assets/fmly.jpeg"
 import spaImg from "./assets/spa.jpg"
@@ -17,12 +17,18 @@ function App() {
   const [extraGiftOpen, setExtraGiftOpen] = useState(false)
 
   return (
-    <>
-    <div className='flex h-screen w-screen flex-col justify-center items-center px-12 gap-12'>
+   
      
-      <h1 className='ml-[-70px] font-whisper text-[140px] text-[#E175A5] '> Happy birthday to my beautiful wife!</h1>
-      <img src={LoveLetter } alt="" className=' h-[200px]'/>
-    </div>
+    <>
+    <div className='flex h-screen w-screen flex-row justify-center relative  overflow-hidden'>
+      <div className='h-full w-full absolute object-cover bg-[rgb(28,25,23,0.74)] z-10'/>
+      <img src={Frida } alt="" className='f-full w-full object-cover absolute grayscale' />
+    
+    
+      <p className=' font-whisper text-[125px] text-[#E175A5] w-full flex justify-center z-50 '> Happy birthday to my beautiful <span className='text-white ml-4'>  wife!</span></p>
+
+
+      </div>
     <div className='flex h-screen w-screen flex-row justify-center relative  overflow-hidden'>
       <div className='h-full w-full absolute object-cover bg-[rgb(28,25,23,0.7)] z-10'/>
       <img src={FridaDive} alt="" className='f-full w-full object-cover absolute grayscale' />
