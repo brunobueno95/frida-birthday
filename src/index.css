@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+  background-color: rgb(28 25 23);
+  margin:0;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+p{
+  font-size: 25px;
+}
