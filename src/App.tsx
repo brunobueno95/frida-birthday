@@ -125,7 +125,7 @@ function App() {
     }
    
       <button onClick={()=>{setGiftOpen(!giftOpen)}}
-       className='absolute bottom-10 cursor-pointer border-2 border-[#E175A5] rounded p-6 h-[90px] w-[280px] bg-stone-900 shadow-lg flex items-center justify-center font-whisper text-[60px] text-[#E175A5] hover:bg-[#E175A5] hover:text-stone-900 hover:border-stone-900'>{!giftOpen ? "Open Gift" : "Close"} </button>
+       className='absolute bottom-6 cursor-pointer border-2 border-[#E175A5] rounded p-6 h-[90px] w-[280px] bg-stone-900 shadow-lg flex items-center justify-center font-whisper text-[60px] text-[#E175A5] hover:bg-[#E175A5] hover:text-stone-900 hover:border-stone-900'>{!giftOpen ? "Open Gift" : "Close"} </button>
       </div>
      
     </div>
