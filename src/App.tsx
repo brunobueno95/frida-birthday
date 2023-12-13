@@ -25,7 +25,7 @@ function App() {
       <img src={Frida } alt="" className='f-full w-full object-cover absolute grayscale' />
     
     
-      <p className=' font-whisper text-[125px] text-[#E175A5] w-full flex justify-center z-50 '> Happy birthday to my beautiful <span className='text-white ml-4'>  wife!</span></p>
+      <p className=' font-whisper text-[110px] text-[#E175A5] w-full flex justify-center z-50 '> Happy birthday to my beautiful <span className='text-white ml-4'>  wife!</span></p>
 
 
       </div>
@@ -79,7 +79,7 @@ function App() {
       <img src={Fmly} alt="" className='f-full w-full object-cover absolute grayscale' />
     
       <div className='w-full py-4 z-20 px-8 flex  items-center flex-col justify-between'>
-      <p className='l font-whisper text-[120px] text-[#E175A5]'>
+      <p className='l font-whisper text-[90px] text-[#E175A5]'>
          This here, means <span className='text-white'>everything</span> for me.  
       </p>
 
