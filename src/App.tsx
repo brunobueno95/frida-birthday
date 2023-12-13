@@ -47,7 +47,7 @@ function App() {
         </div>
       </div>
     </div>
-    <div className='h-[56vh] w-full flex -justify-center items-center flex-col '>
+    <div className='h-[56vh] w-full flex -justify-center items-center flex-col py-6'>
    
       <h1 className=' font-whisper text-[150px] text-[#E175A5] ml-[-60px] mb-4'  >Us</h1>
       <div className='w-[50%] text-pink-100 mt-[-20px]'>
@@ -73,7 +73,7 @@ function App() {
       </div>
      
     </div>
-    <div className='h-[56vh] w-full flex -justify-center items-center flex-col '>
+    <div className='h-[56vh] w-full flex -justify-center items-center flex-col py-6 '>
    
    <h1 className=' font-whisper text-[150px] text-[#E175A5] ml-[-60px] mb-4'  >Celebration</h1>
    <div className='w-[50%] text-pink-100 mt-[-20px]'>
