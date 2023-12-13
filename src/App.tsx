@@ -36,7 +36,7 @@ function App() {
    <h1 className=' font-whisper text-[90px] text-[#E175A5] ml-[-60px] mb-4'  >18/12/1992</h1>
    <div className='w-[50%] text-pink-100 mt-[-20px]'>
    <p >Today is your birthday. And its a very special day. It's a day to stop and think about all your life journey and what an amazing person you are. 
-    You have done a lot through this life, from being a football player, gymnastic, skier, diver, and a great radiologist. You have traveled the world, experienced different cultures, culinary and languaes. You have experienced things first hand, and now to tip it all you became a mom.  </p>
+    You have done a lot through this life, from being a football player, gymnastic, skier, diver, and a great radiologist. You have traveled the world, experienced different cultures, culinary and languages. You have experienced things first hand, and now to tip it all you became a mom.  </p>
    
 
   
