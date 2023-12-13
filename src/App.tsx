@@ -22,14 +22,16 @@ function App() {
     <>
     <div className='flex h-screen w-screen flex-row justify-center relative  overflow-hidden'>
       <div className='h-full w-full absolute object-cover bg-[rgb(28,25,23,0.74)] z-10'/>
-      <img src={Frida } alt="" className='f-full w-full object-cover absolute grayscale' />
+      <img src={Frida } alt="" className='h-full w-full object-cover absolute grayscale' />
     
     
       <p className=' font-whisper text-[110px] text-[#E175A5] w-full flex justify-center z-50 '> Happy birthday to my beautiful <span className='text-white ml-4'>  wife!</span></p>
 
 
       </div>
-      <div className='h-auto w-full flex -justify-center items-center flex-col pt-[40px] pb-[60px] gap-8'>
+
+
+      <div className='h-auto w-full flex justify-center items-center flex-col pt-[40px] pb-[60px] gap-8'>
    
    <h1 className=' font-whisper text-[90px] text-[#E175A5] ml-[-60px] mb-4'  >18/12/1992</h1>
    <div className='w-[50%] text-pink-100 mt-[-20px]'>
@@ -44,7 +46,7 @@ function App() {
       
     <div className='flex h-screen w-screen flex-row justify-center relative  overflow-hidden'>
       <div className='h-full w-full absolute object-cover bg-[rgb(28,25,23,0.7)] z-10'/>
-      <img src={FridaDive} alt="" className='f-full w-full object-cover absolute grayscale' />
+      <img src={FridaDive} alt="" className=' w-full object-cover absolute grayscale' />
       <div className=' w-1/2 '/>
       <div className='w-1/2 flex flex-col  z-20  items-center justify-center h-full' >
       <h1 className=' font-whisper text-[90px] text-[#E175A5] ml-[-60px] mb-4' >You</h1>
@@ -76,7 +78,7 @@ function App() {
    
     <div className='flex h-screen w-screen flex-row justify-center relative  overflow-hidden'>
       <div className='h-full w-full absolute object-cover bg-[rgb(28,25,23,0.74)] z-10'/>
-      <img src={Fmly} alt="" className='f-full w-full object-cover absolute grayscale' />
+      <img src={Fmly} alt="" className=' w-full object-cover absolute grayscale' />
     
       <div className='w-full py-4 z-20 px-8 flex  items-center flex-col justify-between'>
       <p className='l font-whisper text-[90px] text-[#E175A5]'>
