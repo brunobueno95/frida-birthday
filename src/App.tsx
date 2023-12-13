@@ -46,7 +46,7 @@ function App() {
       <div className='h-full w-full absolute object-cover bg-[rgb(28,25,23,0.7)] z-10'/>
       <img src={FridaDive} alt="" className='f-full w-full object-cover absolute grayscale' />
       <div className=' w-1/2 '/>
-      <div className='w-1/2 flex flex-col  z-20  items-center' >
+      <div className='w-1/2 flex flex-col  z-20  items-center justify-center h-full' >
       <h1 className=' font-whisper text-[90px] text-[#E175A5] ml-[-60px] mb-4' >You</h1>
       <div className='w-[70%] text-pink-100'>
       <p >BBzinha, you are a perfect mother, an amazing person, hard worker, organized, very caring, and always gets the heart of everybody around you. 
