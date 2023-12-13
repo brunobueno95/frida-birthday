@@ -29,12 +29,25 @@ function App() {
 
 
       </div>
+      <div className='h-auto w-full flex -justify-center items-center flex-col pt-[40px] pb-[60px] gap-8'>
+   
+   <h1 className=' font-whisper text-[90px] text-[#E175A5] ml-[-60px] mb-4'  >18/12/1992</h1>
+   <div className='w-[50%] text-pink-100 mt-[-20px]'>
+   <p >Today is your birthday. And its a very special day. It's a day to stop and think about all your life journey and what an amazing person you are. 
+    You have done a lot through this life, from being a football player, gymnastic, skier, diver, and a great radiologist. You have traveled the world, experienced different cultures, culinary and languaes. You have experienced things first hand, and now to tip it all you became a mom.  </p>
+   
+
+  
+     
+     </div>
+   </div>
+      
     <div className='flex h-screen w-screen flex-row justify-center relative  overflow-hidden'>
       <div className='h-full w-full absolute object-cover bg-[rgb(28,25,23,0.7)] z-10'/>
       <img src={FridaDive} alt="" className='f-full w-full object-cover absolute grayscale' />
       <div className=' w-1/2 '/>
       <div className='w-1/2 flex flex-col  z-20  items-center' >
-      <h1 className=' font-whisper text-[150px] text-[#E175A5] ml-[-60px] mb-4' >You</h1>
+      <h1 className=' font-whisper text-[90px] text-[#E175A5] ml-[-60px] mb-4' >You</h1>
       <div className='w-[70%] text-pink-100'>
       <p >BBzinha, you are a perfect mother, an amazing person, hard worker, organized, very caring, and always gets the heart of everybody around you. 
         Everyone I know only have good things to say about you.   </p>
@@ -47,15 +60,15 @@ function App() {
         </div>
       </div>
     </div>
-    <div className='h-[56vh] w-full flex -justify-center items-center flex-col py-6'>
+    <div className='h-auto w-full flex -justify-center items-center flex-col pt-[40px] pb-[60px] gap-8'>
    
-      <h1 className=' font-whisper text-[150px] text-[#E175A5] ml-[-60px] mb-4'  >Us</h1>
+      <h1 className=' font-whisper text-[90px] text-[#E175A5] ml-[-60px] mb-4'  >Us</h1>
       <div className='w-[50%] text-pink-100 mt-[-20px]'>
       <p >We have been together for many years now, and have seen all sides of each other,
          we ve been through epic times and hard times together and I am very grateful 
          and happy to have you by my side through everything. I truly love you, and trust you with everyting and for everything!  </p>
       
-     <br/>
+ 
      
         
         </div>
@@ -73,16 +86,15 @@ function App() {
       </div>
      
     </div>
-    <div className='h-[56vh] w-full flex -justify-center items-center flex-col py-6 '>
+    <div className='h-auto w-full flex -justify-center items-center flex-col pt-[40px] pb-[60px] gap-8'>
    
-   <h1 className=' font-whisper text-[150px] text-[#E175A5] ml-[-60px] mb-4'  >Celebration</h1>
+   <h1 className=' font-whisper text-[90px] text-[#E175A5] ml-[-60px] mb-4'  >Celebration</h1>
    <div className='w-[50%] text-pink-100 mt-[-20px]'>
    <p >Its very easy to get stuck on the everyday and let things fall into routine. 
     This year has been tough on us, besides being incredible watching Luquinha evolve everyday. 
     It has been very challenging year for us, with many slepless nights. With that in mind, 
     I found the perfect birthday gift.  </p>
-   
-  <br/>
+
   
      
      </div>
@@ -94,9 +106,9 @@ function App() {
       <div className='w-full py-4 z-20 px-8 flex  items-center flex-col justify-center gap-8'>
     {
       giftOpen && (
-        <div className='bg-stone-900 rounded shadow-lg w-[900px] h-[500px]  items-center flex flex-col animate-scale-in-center'>
-        <p className='font-whisper text-white text-[80px] mb-3' >A romantic night </p>
-        <div className=' flex flex-col w-1/3  border-white justify-start mt-1 gap-3'>
+        <div className='absolute top-[110px] bg-stone-900 rounded shadow-lg w-[900px] h-[500px]  items-center flex flex-col animate-scale-in-center'>
+        <p className='font-whisper text-white text-[60px] mb-3' >A romantic night </p>
+        <div className=' flex flex-col w-1/3  border-white justify-start mt-3 gap-3'>
         <div className='flex flex-row gap-2 items-center'><img src={Flowers} alt="" className='h-[55px]'/>  <p className=' text-[#E77563] ' >Flowers  </p></div>
         <div className='flex flex-row gap-2 items-center'><img src={Bubbles} alt="" className='h-[55px]'/>  <p className=' text-emerald-500 ' >Bottle of bubbles  </p></div>
        <div className='flex flex-row gap-2 items-center'><img src={Sushi} alt="" className='h-[55px]'/>  <p className=' text-[#FE7F60] ' > Sushi  </p></div>
