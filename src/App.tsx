@@ -108,7 +108,7 @@ function App() {
       <div className='w-full py-4 z-20 px-8 flex  items-center flex-col justify-center gap-8'>
     {
       giftOpen && (
-        <div className='absolute top-[110px] bg-stone-900 rounded shadow-lg w-[900px] h-[500px]  items-center flex flex-col animate-scale-in-center'>
+        <div className='absolute top-[80px] bg-stone-900 rounded shadow-lg w-[900px] h-[500px]  items-center flex flex-col animate-scale-in-center'>
         <p className='font-whisper text-white text-[60px] mb-3' >A romantic night </p>
         <div className=' flex flex-col w-1/3  border-white justify-start mt-3 gap-3'>
         <div className='flex flex-row gap-2 items-center'><img src={Flowers} alt="" className='h-[55px]'/>  <p className=' text-[#E77563] ' >Flowers  </p></div>
